@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.experitest.auto.AndroidDemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-04T11:15:08" hostname="SSHARAN-LT" time="25.72">
-  <properties/>
-  <testcase name="quickStartAndroidNativeDemo" classname="com.experitest.auto.AndroidDemoTest" time="25.72"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

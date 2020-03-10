@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.experitest.auto.IOSDemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-04T11:15:02" hostname="SSHARAN-LT" time="36.395">
-  <properties/>
-  <testcase name="quickStartiOSNativeDemo" classname="com.experitest.auto.IOSDemoTest" time="36.395"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jul 04, 2019 4:45:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-</testsuite>
