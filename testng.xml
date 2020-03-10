@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="TestIOS3" parallel="classes">
+		<parameter name="deviceQuery" value="@os='ios'" />
+		<classes>
+			<class name="com.experitest.auto.IOSBillPayment" />
+			<class name="com.experitest.auto.IOSBillPaymentErrorTest" />
+			<class name="com.experitest.auto.IOSFAceTouchIDTest" />
+			<class name="com.experitest.auto.IosPDFReader" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestIOS4">
+		<parameter name="deviceQuery"
+			value="@os='ios' and @serialnumber='5ba147f63263f7e3ae1034b822a1c1973b06dd95'" />
+		<classes>
+			<class name="com.experitest.auto.IosQRCodeTest2" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestAndroid" parallel="classes">
+		<parameter name="deviceQuery" value="@os='android'" />
+		<classes>
+			<class name="com.experitest.auto.AndroidBillPaymentTest" />
+			<class name="com.experitest.auto.AndroidBillPaymentErrorTest" />
+			<class name="com.experitest.auto.AndroidFingerPrintNegativeTest" />
+			<class name="com.experitest.auto.AndroidFingerPrintPositiveTest" />
+			<class name="com.experitest.auto.AndroidPdfViewer" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

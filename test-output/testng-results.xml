@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129113" started-at="2020-03-10T06:44:51Z" finished-at="2020-03-10T06:47:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129113" started-at="2020-03-10T06:44:51Z" finished-at="2020-03-10T06:47:00Z">
+      <class name="com.experitest.auto.AndroidPdfViewer">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.experitest.auto.AndroidPdfViewer@2286778]" name="setUp" is-config="true" duration-ms="23372" started-at="2020-03-10T12:14:51Z" finished-at="2020-03-10T12:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@os='android' and @serialnumber='ce051715a875d53301']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.experitest.auto.AndroidPdfViewer@2286778]" name="test" duration-ms="98053" started-at="2020-03-10T12:15:14Z" finished-at="2020-03-10T12:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.experitest.auto.AndroidPdfViewer@2286778]" name="tearDown" is-config="true" duration-ms="7660" started-at="2020-03-10T12:16:53Z" finished-at="2020-03-10T12:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.AndroidPdfViewer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

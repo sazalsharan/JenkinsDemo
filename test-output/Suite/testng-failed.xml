@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestIOS4(failed)" parallel="tests">
+    <parameter name="deviceQuery" value="@os=&#039;ios&#039; and @serialnumber=&#039;5ba147f63263f7e3ae1034b822a1c1973b06dd95&#039;"/>
+    <classes>
+      <class name="com.experitest.auto.IOSFAceTouchIDTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSFAceTouchIDTest -->
+      <class name="com.experitest.auto.AndroidPdfViewer">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidPdfViewer -->
+      <class name="com.experitest.auto.IosQRCodeTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosQRCodeTest2 -->
+      <class name="com.experitest.auto.AndroidFingerPrintPositiveTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintPositiveTest -->
+      <class name="com.experitest.auto.IOSBillPayment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPayment -->
+      <class name="com.experitest.auto.AndroidBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentErrorTest -->
+      <class name="com.experitest.auto.IOSBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPaymentErrorTest -->
+      <class name="com.experitest.auto.AndroidBillPaymentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentTest -->
+      <class name="com.experitest.auto.IosPDFReader">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosPDFReader -->
+      <class name="com.experitest.auto.AndroidFingerPrintNegativeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintNegativeTest -->
+    </classes>
+  </test> <!-- TestIOS4(failed) -->
+  <test name="TestIOS3(failed)" parallel="classes">
+    <parameter name="deviceQuery" value="@os=&#039;ios&#039;"/>
+    <classes>
+      <class name="com.experitest.auto.IOSFAceTouchIDTest">
+        <methods>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSFAceTouchIDTest -->
+      <class name="com.experitest.auto.AndroidPdfViewer">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidPdfViewer -->
+      <class name="com.experitest.auto.IosQRCodeTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosQRCodeTest2 -->
+      <class name="com.experitest.auto.AndroidFingerPrintPositiveTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintPositiveTest -->
+      <class name="com.experitest.auto.IOSBillPayment">
+        <methods>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPayment -->
+      <class name="com.experitest.auto.AndroidBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentErrorTest -->
+      <class name="com.experitest.auto.IOSBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPaymentErrorTest -->
+      <class name="com.experitest.auto.AndroidBillPaymentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentTest -->
+      <class name="com.experitest.auto.IosPDFReader">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosPDFReader -->
+      <class name="com.experitest.auto.AndroidFingerPrintNegativeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintNegativeTest -->
+    </classes>
+  </test> <!-- TestIOS3(failed) -->
+  <test name="TestAndroid(failed)" parallel="classes">
+    <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
+    <classes>
+      <class name="com.experitest.auto.AndroidPdfViewer">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidPdfViewer -->
+      <class name="com.experitest.auto.IOSFAceTouchIDTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSFAceTouchIDTest -->
+      <class name="com.experitest.auto.IosQRCodeTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosQRCodeTest2 -->
+      <class name="com.experitest.auto.AndroidFingerPrintPositiveTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintPositiveTest -->
+      <class name="com.experitest.auto.AndroidBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentErrorTest -->
+      <class name="com.experitest.auto.IOSBillPayment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPayment -->
+      <class name="com.experitest.auto.AndroidBillPaymentTest">
+        <methods>
+          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidBillPaymentTest -->
+      <class name="com.experitest.auto.IOSBillPaymentErrorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IOSBillPaymentErrorTest -->
+      <class name="com.experitest.auto.IosPDFReader">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.experitest.auto.IosPDFReader -->
+      <class name="com.experitest.auto.AndroidFingerPrintNegativeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.experitest.auto.AndroidFingerPrintNegativeTest -->
+    </classes>
+  </test> <!-- TestAndroid(failed) -->
+</suite> <!-- Failed suite [Suite] -->
